@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/rules.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+
+}
+
+
+.fillBackground
+{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/rules.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.c5
+{
+    margin-top: 0px;
+    padding: 40px;
+
+    border-bottom-left-radius: 30px;
+    /* border-radius: 30px; */
+    width: 550px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    background-color: #d6615680;
+    font-size: x-large;
+    align-self: center;
+}

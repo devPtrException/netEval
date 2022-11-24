@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/userData.png");
+    background-color: transparent;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+
+}
+
+.c6
+{
+    padding-top: 30px;
+    padding-left: 2%;
+    align-items: left;
+    border-bottom-left-radius: 30px;
+    /* border-radius: 30px; */
+    width: 450px;
+    height: 60%;
+    position: absolute;
+    right: 8%;
+    background-color: #d6615680;
+    font-size: x-large;
+    align-self: center;
+}
+
+.data
+{
+    padding: 0;
+}
+
+.data1
+{
+    font-size: xx-large;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.sub{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+:hover
+{
+    background-color: #d661563a;
+}

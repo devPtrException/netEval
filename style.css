@@ -1,0 +1,217 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/index_exam.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* .fillBackground
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/index_exam.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5;
+} */
+
+
+.interactiveArea
+{
+    opacity: 0.8;
+    width: 20%;
+    /* width: 300px; */
+    height: 500px;
+    font-family: cursive;
+    background: #1bbd87a9;
+    /* background: #1bbd8776; */
+    color: #4f0a0a;
+    top: 45%;
+    right: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* border-radius: 30px; */
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+:hover
+{
+    opacity: 1;
+}
+
+.interactiveArea input[type="submit"]
+{
+    margin-top: 30px;
+    height: 30px;
+    width: 170px;
+    border-radius: 15px;
+    border: #d66056;
+    color: #4f0a0a;
+    background-color: #d66056;
+}
+
+.interactiveArea input[type="text"],
+input[type="email"],
+input[type="Password"]
+{
+    width: 200px;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    border-radius: 10px;
+    background: transparent;
+    color: #d66056;
+    font-size: 14px;
+}
+
+
+.copyRights
+{
+    width: 195px;
+    height: 20px;
+    font-family: cursive;
+    background: #1bbd8759;
+    color: #4f0a0a;
+    top: 95%;
+    right: 87%;
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+}
+
+
+/*
+.b1{
+    background-color: #4f0a0a;
+    position: sticky;
+    top: 90%;
+    left: 30%;
+    height: 100px;
+    width: 100px;
+} */
+
+
+/*
+.left {
+    width: 75%;
+    height: 800px;
+    background-color: teal;
+}
+.right {
+    width: 25%;
+    height: 400px;
+    background-color: red;
+} */
+
+
+
+/* wrap {
+    width: 100%;
+}
+
+.floatleft {
+    float: left;
+    width: 80%;
+    height: fit-content;
+    background-color: #ff0000;
+}
+
+.floatright {
+    float: right;
+    width: 20%;
+    height: fit-content;
+    background-color: #00ff00;
+} */
+
+/* .column {
+    float: left;
+    border: 1cm;
+}
+
+.left {
+    width: 25%;
+    color: aqua;
+}
+
+.right {
+    width: 75%;
+    color: red;
+} */
+
+
+
+/*
+div {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 30%;
+}
+
+.one {
+    background-color: limegreen;
+    float: left;
+}
+
+.two {
+    background-color: orange;
+    float: left;
+}
+
+.three {
+    background-color: hotpink;
+    float: left;
+} */
+
+
+/*
+.right {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: rgb(56, 1, 44);
+}
+
+.left {
+    left: 0;
+    background-color: rgb(36, 0, 95);
+} */
+
+/* .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+/*
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+} */

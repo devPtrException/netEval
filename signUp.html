@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>netEval/signUp</title>
+    <link rel="stylesheet" href="signUp.css">
+    <script src="signUp.js"></script>
+
+</head>
+
+<body>
+
+    <div class="fillBackground"></div>
+
+    <div class="interactiveArea">
+        <center><u>
+                <h1>SignUp</h1>
+            </u></center><br>
+
+        <form action="signUp.php" method="post">
+
+            <p>FirstName
+                <br>
+                <input type="text" name="fName" placeholder="Enter your first name" size="26px">
+            </p>
+
+            <br>
+            <p>LastName
+                <br>
+                <input type="text" name="lName" placeholder="Enter your last name" size="26px">
+            </p>
+
+            <br>
+            <p>E-mail Address
+                <br>
+                <input type="email" name="eMail" placeholder="Enter your email" size="26px" required>
+            </p>
+
+            <br>
+            <p>Mob. No.
+                <br>
+                <input type="tel" name="phNo" placeholder="Enter your contact" size="26px">
+            </p>
+
+            <br>
+            <p>Roll No.
+                <br>
+                <input type="number" name="rlNo" placeholder="Enter your roll" size="26px" min="1" maxlength="60">
+            </p>
+
+            <br>
+            <div>
+                <p>Gender
+                    <br>
+                    <input class="block" type="radio" name="rdbGender" id="rdbM" value="M" required/>Male <br>
+                    <input class="block" type="radio" name="rdbGender" id="rdbF" value="F" />Female <br>
+                    <input class="block" type="radio" name="rdbGender" id="rdbNB" value="N" />NB <br>
+                </p>
+            </div>
+
+            <br>
+            <p>Enter PassWord
+                <br>
+                <input type="password" name="pW" placeholder="Enter your password" size="26px" minlength="4">
+            </p>
+
+            <br>
+            <p>Confirm PassWord
+                <br>
+                <input type="password" name="pWcnf" placeholder="Re-enter your password" size="26px" minlength="4">
+            </p>
+
+            <br>
+            <center>
+                <input type="submit" name="logIn" value="Sign Up">
+                <br>
+                </ce nter>
+                <br><br><br>
+                <center>
+                    <p class="signUp">Already a member? <a href="/beta/index.html">SignIn</a></p>
+                </center>
+        </form>
+    </div>
+
+    <div class="copyRights">
+        <a href="">netEval,</a> Copyright 2022
+    </div>
+
+</body>
+
+</html>
+
+<!--
+CREATE TABLE `candidates`.`userdata`(
+`rlNo` INT(2) NOT NULL AUTO_INCREMENT ,
+`fName` VARCHAR(17) NOT NULL ,
+`lName` VARCHAR(17) NOT NULL ,
+`gender` VARCHAR(1) NOT NULL ,
+`eMail` VARCHAR(33) NOT NULL ,
+`mobNo` INT(10) NOT NULL ,
+`pWd` VARCHAR(23) NOT NULL ,
+PRIMARY KEY (`rlNo`),
+UNIQUE (`eMail`)) ENGINE = InnoDB; -->
